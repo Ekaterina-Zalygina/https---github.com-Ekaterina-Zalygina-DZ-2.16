@@ -26,7 +26,7 @@ export const renderLogin = () => {
             login: loginInputElement.value,
             password: passwordInputElement.value
         }).then((responseData) => {
-            console.log(responseData)
+            console.log(responseData)         
             setToken(responseData.user.token)
         })
     })
